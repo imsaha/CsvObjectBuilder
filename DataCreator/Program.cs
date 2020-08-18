@@ -34,7 +34,4 @@ namespace DataCreator
             Console.WriteLine(obj.GetDataArray());
         }
     }
-
-
-
 }
