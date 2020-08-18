@@ -29,7 +29,7 @@
                             + "15,Barbados \n";
 
 
-            var obj = new CsvObject.CsvObject(testData, "MyClass");
+            var obj = new CsvObject.CsvObjectConverter(testData, "MyClass");
             Console.WriteLine(obj.GetClassDefinition());
             Console.WriteLine(obj.GetDataArray());
         }
