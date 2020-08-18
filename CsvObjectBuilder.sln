@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCreator", "DataCreator\DataCreator.csproj", "{B93C46E4-B324-49CC-A559-B587677B14CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvObject", "CsvObject\CsvObject.csproj", "{65815823-592B-481B-8AD2-E12083E853E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93C46E4-B324-49CC-A559-B587677B14CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93C46E4-B324-49CC-A559-B587677B14CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93C46E4-B324-49CC-A559-B587677B14CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93C46E4-B324-49CC-A559-B587677B14CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65815823-592B-481B-8AD2-E12083E853E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65815823-592B-481B-8AD2-E12083E853E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65815823-592B-481B-8AD2-E12083E853E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65815823-592B-481B-8AD2-E12083E853E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85EF794A-F1F5-4160-9C0C-3EB72988AC10}
+	EndGlobalSection
+EndGlobal
