@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CsvObject
 {
-    public class CsvObject
+    public class CsvObjectConverter
     {
         private readonly string[] _csvRows;
         private readonly string _className;
@@ -15,7 +15,7 @@ namespace CsvObject
         private readonly int _startLineIndex;
 
 
-        public CsvObject(
+        public CsvObjectConverter(
             string csvData,
             string className = "Model",
             int headerIndex = 0,
